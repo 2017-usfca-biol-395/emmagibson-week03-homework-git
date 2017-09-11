@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# test script to make a project folder with a blank readme
+# example script to set up a project directory system with sample data, .gitkeep files, and a blank README
 # Emma Gibson egibson@usfca.edu
-# August 30, 2017
+# September 11, 2017
 
 # dynamic dates: mkdir $(date "+%Y-%m-%d)_bioinformatics_project
 

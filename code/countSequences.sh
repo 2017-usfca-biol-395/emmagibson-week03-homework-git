@@ -5,8 +5,7 @@
 # due September 11, 2017
 
 #move to proper directory
-cd ..
-cd data/raw_data
+cd ../data/raw_data
 
 # count sequences in file
 for file in *.fasta
