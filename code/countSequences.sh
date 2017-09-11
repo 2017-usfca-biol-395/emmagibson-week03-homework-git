@@ -10,5 +10,5 @@ cd ../data/raw_data
 # count sequences in file
 for file in *.fasta
 do
-echo "This file has $(grep -c "^>" $file) sequences"
+echo "The file $file has $(grep -c "^>" $file) sequences"
 done
