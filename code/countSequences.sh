@@ -4,11 +4,9 @@
 # Emma Gibson egibson@dons.usfca.edu
 # due September 11, 2017
 
-#move to proper directory
-cd ../data/raw_data
-
 # count sequences in file
-for file in *.fasta
+# add another argument to run it, like "./countSequences ../data/raw_data/*.fasta"
+for file in $@
 do
 echo "The file $file has $(grep -c "^>" $file) sequences"
 done
