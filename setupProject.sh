@@ -32,7 +32,7 @@ touch README.txt
 echo "created readme"
 
 #to add .gitkeep files to empty folders
-#echo "adding .gitkeep to empty folders..."
-#touch data/.gitkeep code/.gitkeep output/.gitkeep output/figures/.gitkeep output/tables/gitkeep
-#echo "added .gitkeep to empty folders"
+echo "adding .gitkeep to empty folders..."
+touch data/.gitkeep code/.gitkeep output/.gitkeep output/figures/.gitkeep output/tables/gitkeep
+echo "added .gitkeep to empty folders"
 
