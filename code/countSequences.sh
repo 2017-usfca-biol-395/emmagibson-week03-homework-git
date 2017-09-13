@@ -8,5 +8,5 @@
 # add another argument to run it, like "./countSequences ../data/raw_data/*.fasta"
 for file in $@
 do
-echo "The file $file has $(grep -c "^>" $file) sequences"
+echo "The file ${file##*/} has $(grep -c "^>" $file) sequences"
 done
